@@ -35,7 +35,8 @@ export default function Footer() {
         
 
         <section className='mb-4'>
-          <h1>VIT - A place to learn, A Chance to grow</h1>
+          <h1>VIT - A place to learn, A Chance to grow
+          </h1>
         </section>
 
         

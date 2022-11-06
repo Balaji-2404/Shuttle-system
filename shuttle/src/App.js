@@ -4,6 +4,7 @@ import SimpleMap from "./map";
 import Button from "@mui/material/Button";
 import Payment from "./payment";
 import PassengerCount from "./passengerCount";
+import location from "./Data";
 function App() {
   const [isOpen, setIsOpen] = useState(false);
   const payFee = () => {
@@ -28,8 +29,8 @@ function App() {
           <div className="col d-block d-lg-none d-xl-none">
             <img
               src="https://vit.ac.in/system/files/004A7447.JPG"
-              width="350"
-              height="250"
+              width="90%%"
+              height="50%"
               className="img-responsive align-top"
               alt="Shuttle image "
             />

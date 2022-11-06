@@ -5,7 +5,7 @@ import React, { useState } from "react";
 
 const PassengerCount = () => {
 // Counter is a state initialized to 0
-const [counter, setCounter] = useState(0)
+const [counter, setCounter] = useState(18)
 
 // Function is called everytime increment button is clicked
 const handleClick1 = () => {
@@ -31,14 +31,14 @@ return (
 	height: '50%',
 	
 	}}>
-	Passenger Count
+	<h2>Passenger Count</h2>
 	<div style={{
 		fontSize: '100%',
 		position: 'relative',
 		top: '5vh',
 	
 	}}>
-		{counter}
+		<h4>Number of passengers in Bus : {counter}</h4>
 	</div>
 	<div className="buttons">
 		<button style={{
@@ -50,7 +50,7 @@ return (
 		borderRadius: '8%',
 		color: 'white',
 		}}
-		onClick={handleClick1}>Increment</button>
+		onClick={handleClick1}>Incoming Passenger</button>
 		<button style={{
 		fontSize: '60%',
 		position: 'relative',
@@ -60,7 +60,7 @@ return (
 		borderRadius: '8%',
 		color: 'white',
 		}}
-		onClick={handleClick2}>Decrement</button>
+		onClick={handleClick2}>Outgoing Passenger</button>
 	</div>
 	</div>
 )
