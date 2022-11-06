@@ -38,7 +38,8 @@ return (
 		top: '5vh',
 	
 	}}>
-		<h4>Number of passengers in Bus : {counter}</h4>
+		<h4 className="mb-4">Number of passengers in Bus : {counter}</h4>
+		<h4>Maximum Number of passengers : 40</h4>
 	</div>
 	<div className="buttons">
 		<button style={{
