@@ -68,6 +68,8 @@ const redOptions = { color: 'red' }
   return (
     <>
     <div className="container">
+    <h2 className="mt-5 mb-5">Map View</h2>
+    <h4 className="mb-5">Blue circle represents starting point, Red circle represents destination</h4>
     <MapContainer style={{width:"100%",height:"650px"}} center={center} zoom={17} scrollWheelZoom={false}>
     <TileLayer
       attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
